@@ -1,0 +1,305 @@
+
+itranslator.Translator#translate(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (""10*Æ
+2d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java- -(Ω∫
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java- -()
+%32java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*+
+)
+textTranslatedjava.lang.StringBuilder*
+
+outputjava.lang.String2append(Ljava/lang/String;)*
+3*Ä
+3d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java, ,(„‡
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java, ,(&
+%31java.lang.String"3java.io.BufferedReader#readLine()Ljava/lang/String;*
+
+brjava.io.BufferedReader2
+readLine()¶
+£
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java, ,(&
+outputjava.lang.String"__id*
+
+%31java.lang.String*
+2
+1*ˆ
+4d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java&/ ((	¶£
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java&3 &(D 
+%25java.io.InputStreamReader"java.io.InputStreamReaderÏ
+È
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java&/ ((	
+%26"8java.io.InputStreamReader#<init>(Ljava/io/InputStream;)V*"
+ 
+%25java.io.InputStreamReader*
+
+%22java.io.InputStream†ù
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java&  &(.
+%27java.io.BufferedReader"java.io.BufferedReaderÁ
+‰
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java& ((
+
+%28"0java.io.BufferedReader#<init>(Ljava/io/Reader;)V*
+
+%27java.io.BufferedReader*"
+ 
+%25java.io.InputStreamReaderÆ
+´
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java& ((
+brjava.io.BufferedReader"__id*
+
+%27java.io.BufferedReaderì
+ê
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java) )(
+outputjava.lang.String"__id*
+""¢ü
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java*+ *(8
+%29java.lang.StringBuilder"java.lang.StringBuilderµ
+≤
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java*' *(:
+%30"!java.lang.StringBuilder#<init>()V* 
+
+%29java.lang.StringBuilderº
+π
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java* *(;)
+textTranslatedjava.lang.StringBuilder"__id* 
+
+%29java.lang.StringBuilder*
+3*ú
+5d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java'> '(Bˇ¸
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java'> '(S
+%24java.io.InputStream"@java.net.HttpURLConnection#getErrorStream()Ljava/io/InputStream;*$
+"
+connjava.net.HttpURLConnection2getErrorStream()©
+¶
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java'> '(S
+%22java.io.InputStream"__id*
+
+%24java.io.InputStream*
+4*ò
+6d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java'& '(*˚¯
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java'& '(;
+%23java.io.InputStream"<java.net.URLConnection#getInputStream()Ljava/io/InputStream;*$
+"
+connjava.net.HttpURLConnection2getInputStream()©
+¶
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java'& '(;
+%22java.io.InputStream"__id*
+
+%23java.io.InputStream*
+4*¸&
+7d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (-Ë
+Â
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (E
+%4java.lang.String"ptranslator.Translator#buildJsonPayLoad(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*"
+translator.Translator*
+
+fromLangjava.lang.String*
+
+toLangjava.lang.String*
+
+textjava.lang.String™
+ß
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (F
+jsonPayloadjava.lang.String"__id*
+
+%4java.lang.Stringè
+å
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java ("
+%5java.lang.String"__id*
+""ãà
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (
+%6java.net.URL"java.net.URL…
+∆
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (#
+%7"(java.net.URL#<init>(Ljava/lang/String;)V*
+
+%6java.net.URL*
+
+%5java.lang.Stringö
+ó
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java ($
+urljava.net.URL"__id*
+
+%6java.net.URLÁ‰
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java5 (I
+%8java.net.URLConnection"5java.net.URL#openConnection()Ljava/net/URLConnection;*
+
+urljava.net.URL2openConnection()≥
+∞
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (J"
+connjava.net.HttpURLConnection"__id*
+
+%8java.net.URLConnection€ÿ
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (
+
+%9void"&java.net.URLConnection#setDoOutput(Z)V*$
+"
+connjava.net.HttpURLConnection*
+""2setDoOutput(Z)éã
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (%
+%10void"@java.net.HttpURLConnection#setRequestMethod(Ljava/lang/String;)V*$
+"
+connjava.net.HttpURLConnection*
+POST2$setRequestMethod(Ljava/lang/String;)ê
+ç
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java2 (;
+%11java.lang.String"__id*
+""◊‘
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (<
+%12void"Pjava.net.URLConnection#setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V*$
+"
+connjava.net.HttpURLConnection*
+X-WM-CLIENT-ID*
+
+%11java.lang.String28setRequestProperty(Ljava/lang/String;Ljava/lang/String;)ê
+ç
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java6 (C
+%13java.lang.String"__id*
+""€ÿ
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (D
+%14void"Pjava.net.URLConnection#setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V*$
+"
+connjava.net.HttpURLConnection*
+X-WM-CLIENT-SECRET*
+
+%13java.lang.String28setRequestProperty(Ljava/lang/String;Ljava/lang/String;)–Õ
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (C
+%15void"Pjava.net.URLConnection#setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V*$
+"
+connjava.net.HttpURLConnection*
+Content-Type*
+application/json28setRequestProperty(Ljava/lang/String;Ljava/lang/String;)ˇ¸
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java   (0
+%16java.io.OutputStream">java.net.URLConnection#getOutputStream()Ljava/io/OutputStream;*$
+"
+connjava.net.HttpURLConnection2getOutputStream()™
+ß
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java   (1
+osjava.io.OutputStream"__id*
+
+%16java.io.OutputStream∆√
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java! !('
+%17byte[]"java.lang.String#getBytes()[B*!
+
+jsonPayloadjava.lang.String2
+getBytes()—Œ
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java! !((
+%18void"java.io.OutputStream#write([B)V*
+
+osjava.io.OutputStream*
+
+%17byte[]2	write([B)ºπ
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java" "(
+%19void"java.io.OutputStream#flush()V*
+
+osjava.io.OutputStream2flush()ºπ
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java# #(
+%20void"java.io.OutputStream#close()V*
+
+osjava.io.OutputStream2close()›⁄
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java% %(/
+
+%21int"-java.net.HttpURLConnection#getResponseCode()I*$
+"
+connjava.net.HttpURLConnection2getResponseCode()*
+5
+6*ˆ
+8d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java" (Jôñ
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (!
+%2java.io.IOException"java.io.IOExceptionÈ
+Ê
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (K
+%3"/java.io.IOException#<init>(Ljava/lang/String;)V*
+
+%2java.io.IOException**(
+&Se excedio con el numero de caracteres*
+0*™
+9d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java" (&∂≥
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java" (/	
+%1int"java.lang.String#length()I*
+
+textjava.lang.String2length()*
+7
+8*´
+10d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (∂≥
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java (	
+%0int"java.lang.String#length()I*
+
+textjava.lang.String2length()*
+8
+9*Ç
+0 "{
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java1 1(
+implicit return*∏
+1d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java/ /(‘—
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java/ /(
+%33void"(java.net.HttpURLConnection#disconnect()V*$
+"
+connjava.net.HttpURLConnection2disconnect()ÒÓ
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java0 0((
+%34java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*+
+)
+textTranslatedjava.lang.StringBuilder2
+toString()"Å
+d
+Z/home/ivhy/Escritorio/lab03-translator-ivhyarleth/src/main/java/translator/Translator.java0 0()
+
+%34java.lang.String:
+fromLangjava.lang.String:
+toLangjava.lang.String:
+textjava.lang.StringB"
+translator.Translator
